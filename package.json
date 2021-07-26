@@ -1,0 +1,23 @@
+{
+  "name": "practico-pilis",
+  "version": "1.0.0",
+  "description": "TP para backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariel Elias",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "lint": "^0.7.0"
+  }
+}
